@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/qq"
+        android:layout_gravity="center_horizontal"/>
+    <!--username输入框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="账号:"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/username"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 密码输入框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="密码:"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:onClick="loginClick"
+        android:text="登录"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
