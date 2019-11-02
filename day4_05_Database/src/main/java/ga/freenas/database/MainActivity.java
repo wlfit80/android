@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //3. 创建一个数据库文件SQLiteOpenHelper它是一个帮助类
         DbOpenHleper helper= new DbOpenHleper(this);
         mDao=new ContactDao(this);
+        System.out.println("git");
 
     }
 
