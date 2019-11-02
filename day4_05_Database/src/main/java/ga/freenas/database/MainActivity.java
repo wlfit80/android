@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void updateContact(View view) {
-        mDao.updateContact("zhansan", "13333251245");
+        mDao.updateContact( "zhangsan","123234");
     }
 
     public void deleteContact(View view) {
-        mDao.deleteContact("shansan");
+        mDao.deleteContact("zhangsan");
     }
 
     public void selectContact(View view) {
-        mDao.queryContact("15011111111");
+        mDao.queryContact("150999999");
     }
 }
