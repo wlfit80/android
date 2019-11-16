@@ -1,2 +1,2 @@
-include ':01_Logcat的使用', ':02_juint测试', ':03_qqlogin', ':04_storage', ':05sd', ':06_black',':03_qqloginv2',':03_qqloginv3', ':day3_01xm保存文件',':day3_02Xml的Pull解析', ':day4_03天气预报的解析', ':day4_04_Database',':day4_05_Database'
+include ':01_Logcat的使用', ':02_juint测试', ':03_qqlogin', ':04_storage', ':05sd', ':06_black',':03_qqloginv2',':03_qqloginv3', ':day3_01xm保存文件',':day3_02Xml的Pull解析', ':day4_03天气预报的解析', ':day4_04_Database',':day4_05_Database', ':day4_06list', ':day5_01listview',':day5_02BaseAdapter', ':day5_03tag', ':day5_04BaseAdapterv2', ':day5_05_arrayadapter', ':day5_06_simpleadapter', ':day5_07_列表样式与监听器', ':day5_08_gridview',':day5_09_Spinner', ':day5_10_expandablelistview'
 rootProject.name='03My Application'
